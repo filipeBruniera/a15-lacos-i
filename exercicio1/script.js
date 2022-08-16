@@ -16,7 +16,7 @@ while (true) {
     .trim();
 
   if (entrada === "N") {
-    alert("Encerrando...");
+    alert("Imprimindo valor da Conta");
     break;
   } else if (entrada === "S") {
     valorTotal = valorTotal + 2.5;
@@ -28,4 +28,4 @@ while (true) {
     continue;
   }
 }
-console.log(`O Valor total da conta é: ${valorTotal}`); 
+console.log(`O Valor total da conta é: ${valorTotal}`);
